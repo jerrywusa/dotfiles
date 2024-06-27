@@ -36,3 +36,5 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 . "$HOME/.cargo/env"
+
+alias nv='~/nvjump.sh'
