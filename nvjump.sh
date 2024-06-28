@@ -10,4 +10,4 @@ if [ -z "$1" ]; then
 fi
 
 # Open Neovim and jump to the mark
-nvim -c "normal! \`$1"
+nvim -c "normal! \`$1" -c "BufOnly"
