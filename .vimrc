@@ -78,7 +78,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'vim-scripts/BufOnly.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'luochen1990/rainbow'
-Plug 'ssh://git.amazon.com:2222/pkg/VimIon.git'
 call plug#end()
 
 colorscheme gruvbox
