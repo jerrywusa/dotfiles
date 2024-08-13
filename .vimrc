@@ -78,6 +78,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'vim-scripts/BufOnly.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'luochen1990/rainbow'
+Plug 'ssh://git.amazon.com:2222/pkg/VimIon.git'
 call plug#end()
 
 colorscheme gruvbox
@@ -250,6 +251,16 @@ command BP call SkipTerminalBuffers('bp')
 
 " CocAction code action stuff
 nnoremap <Leader>. <Plug>(coc-fix-current)
+
+" mapping :E to :Explore
+command E Explore
+
+" L and H to navigate buffers
+nnoremap L :bn<CR>
+nnoremap H :bp<CR>
+
+" W to delete buffer
+nnoremap W :bd<CR>
 
 " ***************************************************************************
 " ******************************** FUNCTIONS ********************************
